@@ -114,5 +114,6 @@ async def end(ctx):
 
         await ctx.send(result_text)
 
-# Sätt din token här:
-bot.run("MTQ3NTE5ODExNDY3NDc3NDIxNg.Gd7nl0.byk3jXcoqHk2byth93ON1RfVAAHGCHdyyxmrsU")
+import os
+bot.run(os.environ["TOKEN"])
+
